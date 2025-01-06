@@ -12,3 +12,8 @@ jobs:
           filename: '../elin-devtools.aseprite-extension'
           directory: 'src'
           exclusions: '*.git* /*node_modules/* .editorconfig'
+      - name: Archive extension artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: elin-devtools
+          path: elin-devtools.aseprite-extension
