@@ -1,0 +1,39 @@
+{
+  "name": "aseprite-elin-devtools",
+  "displayName": "Elin DevTools",
+  "description": "DevTools for modding the game Elin",
+  "version": "1.0",
+  "author": {
+    "name": "Nicholas Armstrong",
+    "email": "nick@n15g.com",
+    "url": "https://steamcommunity.com/id/n15g"
+  },
+  "contributors": [],
+  "publisher": "N15g",
+  "license": "Unlicense",
+  "categories": [
+    "Palettes",
+    "Scripts"
+  ],
+  "contributes": {
+    "scripts": [
+      {
+        "path": "./scripts/export-pcc.lua"
+      }
+    ],
+    "palettes": [
+      {
+        "id": "Elin-Grayscale",
+        "path": "./palettes/grayscale.pal"
+      },
+      {
+        "id": "Elin-PCC Skin+Grayscale",
+        "path": "./palettes/grayscale.pal"
+      },
+      {
+        "id": "Elin-PCC Skin",
+        "path": "./palettes/grayscale.pal"
+      }
+    ]
+  }
+}
