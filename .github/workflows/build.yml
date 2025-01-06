@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Create extension
+      - name: Build extension
         uses: thedoctor0/zip-release@0.7.5
         with:
           type: 'zip'
