@@ -17,4 +17,3 @@ jobs:
         with:
           name: elin-devtools_build
           path: elin-devtools.aseprite-extension
-          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
