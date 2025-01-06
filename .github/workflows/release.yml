@@ -24,7 +24,7 @@ jobs:
         uses: thedoctor0/zip-release@0.7.5
         with:
           type: 'zip'
-          filename: '../aseprite-elin-devtools_${{ github.ref }}'
+          filename: '../aseprite-elin-devtools.zip'
           directory: 'build'
 
       - name: Release
