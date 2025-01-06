@@ -8,18 +8,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+
       - name: Build extension
         uses: thedoctor0/zip-release@0.7.5
         with:
           type: 'zip'
-          filename: '../elin-devtools.aseprite-extension'
+          filename: '../build/elin-devtools.aseprite-extension'
           directory: 'src'
+
+      - run: cp -R ./ref ./build
+
+      - name: Bundle release
+        uses: thedoctor0/zip-release@0.7.5
+        with:
+          type: 'zip'
+          filename: '../aseprite-elin-devtools_${{ github.ref }}'
+          directory: 'build'
 
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
           draft: true
           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
-          files: |
-            ref
-            elin-devtools.aseprite-extension
+          files: build/**
