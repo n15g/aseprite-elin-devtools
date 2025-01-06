@@ -54,13 +54,6 @@ sprite. For PCC files, the sprite sheet is split using tags to separate the 4 ca
 
 ---
 
-# Useful Links
-
-* [elin-fairies](https://github.com/n15g/elin-fairies) - Fairy Mod created using these dev tools. Useful examples of
-  many PCC elements.
-* [Aseprite](https://www.aseprite.org/)
-* [Elin](https://store.steampowered.com/app/2135150/Elin/)
-
 # Release Notes
 
 #### 1.0.0
@@ -69,3 +62,21 @@ sprite. For PCC files, the sprite sheet is split using tags to separate the 4 ca
 * Skin and grayscale palettes
 * References for base body types and example back layer
 
+---
+
+# Release Process
+
+* **Don't forget!** - Update the version in the `src/package.json` file
+* Push commits
+* Create a tag with name `v{x.y.z}`, using [semver](https://semver.org/).
+* Wait for the release action to complete in GitHub.
+* Publish the draft release.
+
+---
+
+# Useful Links
+
+* [elin-fairies](https://github.com/n15g/elin-fairies) - Fairy Mod created using these dev tools. Useful examples of
+  many PCC elements.
+* [Aseprite](https://www.aseprite.org/)
+* [Elin](https://store.steampowered.com/app/2135150/Elin/)

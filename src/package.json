@@ -6,7 +6,7 @@
   "author": {
     "name": "Nicholas Armstrong",
     "email": "nick@n15g.com",
-    "url": "https://steamcommunity.com/id/n15g"
+    "url": "https://github.com/n15g"
   },
   "contributors": [],
   "publisher": "N15g",
@@ -27,8 +27,8 @@
         "path": "./palettes/grayscale.pal"
       },
       {
-        "id": "Elin-PCC Skin+Grayscale",
-        "path": "./palettes/pcc-skin+grayscale.pal"
+        "id": "Elin-PCC Grayscale+Skin",
+        "path": "./palettes/pcc-grayscale+skin.pal"
       },
       {
         "id": "Elin-PCC Skin",
