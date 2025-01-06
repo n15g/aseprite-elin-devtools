@@ -17,8 +17,8 @@ jobs:
 
       - name: Release
         uses: softprops/action-gh-release@v2
-        draft: true
         with:
+          draft: true
           files: |
             ref/**
             elin-devtools.aseprite-extension
