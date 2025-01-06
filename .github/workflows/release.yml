@@ -9,6 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
+      - run: mkdir ./build
+
       - name: Build extension
         uses: thedoctor0/zip-release@0.7.5
         with:
