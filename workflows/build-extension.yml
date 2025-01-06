@@ -1,0 +1,14 @@
+name: Build Aseprite extension
+on: [ push ]
+jobs:
+  Checkout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Create extension package
+        uses: thedoctor0/zip-release@0.7.5
+        with:
+          type: 'zip'
+          filename: '../elin-devtools.aseprite-extension'
+          directory: 'src'
+          exclusions: '*.git* /*node_modules/* .editorconfig'
