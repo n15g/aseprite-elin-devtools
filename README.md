@@ -67,6 +67,7 @@ sprite. For PCC files, the sprite sheet is split using tags to separate the 4 ca
 # Release Process
 
 * **Don't forget!** - Update the version in the `src/package.json` file
+* **Don't forget!** - Update the version in the `README.md` file
 * Push commits
 * Create a tag with name `v{x.y.z}`, using [semver](https://semver.org/).
 * Wait for the release action to complete in GitHub.
