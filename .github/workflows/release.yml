@@ -18,7 +18,7 @@ jobs:
           filename: '../build/elin-devtools.aseprite-extension'
           directory: 'src'
 
-      - run: cp -R ./ref ./build
+      - run: cp -r ./ref ./build/
 
       - name: Bundle release
         uses: thedoctor0/zip-release@0.7.5
