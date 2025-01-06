@@ -2,7 +2,7 @@
   "name": "aseprite-elin-devtools",
   "displayName": "Elin DevTools",
   "description": "DevTools for modding the game Elin",
-  "version": "1.0",
+  "version": "1.0.0",
   "author": {
     "name": "Nicholas Armstrong",
     "email": "nick@n15g.com",
@@ -28,11 +28,11 @@
       },
       {
         "id": "Elin-PCC Skin+Grayscale",
-        "path": "./palettes/grayscale.pal"
+        "path": "./palettes/pcc-skin+grayscale.pal"
       },
       {
         "id": "Elin-PCC Skin",
-        "path": "./palettes/grayscale.pal"
+        "path": "./palettes/pcc-skin.pal"
       }
     ]
   }

@@ -5,15 +5,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Create extension package
+      - name: Create extension
         uses: thedoctor0/zip-release@0.7.5
         with:
           type: 'zip'
           filename: '../elin-devtools.aseprite-extension'
           directory: 'src'
-          exclusions: '*.git* /*node_modules/* .editorconfig'
+
       - name: Archive extension artifact
         uses: actions/upload-artifact@v4
         with:
-          name: elin-devtools
+          name: build
           path: elin-devtools.aseprite-extension
